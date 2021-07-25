@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+<!--<link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">-->
+{% assign path_start = page.path | split:"/" | first %}
+{% assign current_page = path_start | remove:'.md' %}
+{% if current_page == "_posts" %}
+    {% assign current_page = page.title %}
+{% endif %}
+<title>Japan-Stammtisch Karlsruhe | {{ current_page }}</title>
+<meta name="author" content="Tarek Saier">
+<meta name="robots" content="index,follow">
+</head>
+<body>
+
+<header>
+<h1><ruby>カールスルーエ日独交流会<rt>J a p a n - S t a m m t i s c h &nbsp; K a r l s r u h e</rt></ruby></h1>
+<img src="/assets/img/header.jpg" style="width: 600px; height: 250px; background-color: #6f5655;">
+</header>
+
+<nav>
+{% assign nav_items = "treffen|kontakt|info" | split: "|" %}
+{% for item in nav_items %}
+  {% if item == current_page %}
+    <a href="/{{ item }}" class="active">{{ item }}</a>
+  {% else %}
+    <a href="/{{ item }}">{{ item }}</a>
+  {% endif %}
+{% endfor %}
+</nav>
+
+<main>
+{{ content }}
+</main>
+
+<footer>
+<p>Quellcode auf <a href="https://github.com/japanstammtisch/japanstammtisch.github.io">GitHub</a>.</p>
+</footer>
+
+</body>
+</html>

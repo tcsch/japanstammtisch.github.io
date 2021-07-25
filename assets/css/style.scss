@@ -1,0 +1,104 @@
+---
+# this is here to make Jekyll parse it
+---
+
+$link-color: #920000;
+$link-color-hover: #fb3e1e;
+
+* {
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
+    &::before, &::after {
+        box-sizing: border-box;
+    }
+}
+
+::not(a) p {
+    color: #111;
+}
+
+a {
+    color: $link-color;
+    text-decoration: none;
+    &:hover {
+        color: $link-color-hover;
+    }
+    &:focus {
+        outline: none;
+    }
+}
+
+ul {
+    padding-left: 1em;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+div.nextmeetup > a:first-child {
+    color: #111;
+}
+
+span.details {
+    color: #777;
+}
+
+div.infohead {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: $link-color;
+    margin-bottom: 10px;
+}
+
+header, nav, main, footer {
+    width: 600px;
+    margin: 0 auto;
+}
+
+header {
+    margin-top: 15px;
+    & > h1 {
+        text-align: center;
+    }
+}
+
+nav {
+    margin-bottom: 15px;
+    border-bottom: solid 1px #777;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    & > a {
+        font-weight: 500;
+        &::before {
+            opacity: 0;
+            content: "> ";
+        }
+        &::after {
+            opacity: 0;
+            content: " <";
+        }
+        &:hover::before, &.active::before {
+            opacity: 0.6;
+            content: "> ";
+        }
+        &:hover::after, &.active::after {
+            opacity: 0.6;
+            content: " <";
+        }
+    }
+}
+
+footer {
+    font-size: 0.6rem;
+    margin-top: 15px;
+    border-top: solid 1px #777;
+    padding-top: 2px;
+    & > p {
+        color: #333;
+        text-align: right;
+    }
+}

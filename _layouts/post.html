@@ -1,0 +1,15 @@
+---
+layout: textcontent
+---
+
+<h1>{{ page.title }}</h1>
+<div class="infohead">
+  <span>[</span>
+  <span><i class="fa fa-calendar" aria-hidden="true"></i> {{ page.date | date: "%Y-%m-%d" }}</span>
+  <span><i class="fa fa-clock-o" aria-hidden="true"></i> {{ page.time }}</span>
+  <span><i class="fa fa-map-marker" aria-hidden="true"></i> {{ page.place }}</span>
+  <span><i class="fa fa-users" aria-hidden="true"></i> {{ page.people }}</span>
+  <span>]</span>
+</div>
+<div class="postimg"><img src="/assets/img/{{ page.img }}"></div>
+{{ content }}
