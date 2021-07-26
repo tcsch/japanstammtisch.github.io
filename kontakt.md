@@ -4,7 +4,7 @@ layout: textcontent
 
 ### Mailingliste
 
-Sende eine E-Mail an <span id="inb4mail" title="Nicht kopierbar.">lists.kit.edu, um zur Mailingliste hinzugefügt zu werden.
+Sende eine E-Mail an <span id="inb4mail" title="Nicht kopierbar."></span>lists.kit.edu, um zur Mailingliste hinzugefügt zu werden.
 
 ### LINE-Gruppe
 
