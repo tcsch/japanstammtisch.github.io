@@ -2,5 +2,10 @@
 layout: textcontent
 ---
 
-* <a href="#">Mailingliste</a>
-* <a href="#">LINE-Gruppe</a>
+### Mailingliste
+
+Sende eine E-Mail an <span id="inb4mail" title="Nicht kopierbar.">lists.kit.edu, um zur Mailingliste hinzugefügt zu werden.
+
+### LINE-Gruppe
+
+Invite-Link folgt in Kürze.

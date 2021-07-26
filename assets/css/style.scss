@@ -61,6 +61,10 @@ div.infohead {
     }
 }
 
+#inb4mail::before {
+content: "\006A\0061\0440\0061\006E\0040"
+}
+
 header, nav, main, footer {
     width: 600px;
     margin: 0 auto;
