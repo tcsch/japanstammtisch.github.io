@@ -3,6 +3,6 @@ url: "https://japanstammtisch.github.io"
 baseurl: 
 permalink: /:year-:title
 future: true
-title: Japan-Stammtisch Karlsruhe / カールスルーエ日独交流会
-description: Beim Japan-Stammtisch Karlsruhe treffen sich Japaninteressierte ungefähr einmal im Monat zum lockeren Austausch und Kennenlernen Gleichgesinnter. Generell ist jeder willkommen. :)
+title: "Japan-Stammtisch Karlsruhe / カールスルーエ日独交流会"
+description: "Beim Japan-Stammtisch Karlsruhe treffen sich Japaninteressierte ungefähr einmal im Monat zum lockeren Austausch und Kennenlernen Gleichgesinnter."
 markdown: kramdown
