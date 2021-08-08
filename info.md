@@ -2,7 +2,7 @@
 layout: textcontent
 ---
 
-Beim Japan-Stammtisch Karlsruhe treffen sich Japaninteressierte ungefähr einmal im Monat zum lockeren Austausch und Kennenlernen Gleichgesinnter. Generell ist jeder willkommen. :)
+Beim Japan-Stammtisch Karlsruhe treffen sich Japaninteressierte ungefähr einmal im Monat zum lockeren Austausch und Kennenlernen Gleichgesinnter. Es ist jeder herzlich willkommen. :)
 
 <small>Hinweis: Die Deutsch-Japanische Gesellschaft Karlsruhe hat ebenfalls [einen Stammtisch](https://www.djg-karlsruhe.de/).</small>
 

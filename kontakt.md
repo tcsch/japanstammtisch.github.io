@@ -2,16 +2,16 @@
 layout: textcontent
 ---
 
-Für Fragen, Anregungen, Austausch usw. haben wir eine Mailingliste und eine LINE-Gruppe.
-
-### Mailingliste
-
-Sende eine E-Mail an <span id="inb4mail" title="Nicht kopierbar."></span>lists.kit.edu, um zur Mailingliste hinzugefügt zu werden.
+Für Fragen, Anregungen, Austausch usw. haben wir eine LINE-Gruppe und alternativ noch eine Mailingliste.
 
 ### LINE-Gruppe
 
 ![QR-Code](/assets/img/line_qr.jpg)
 <br><span id="ll"></span>
+
+### Mailingliste
+
+Sende eine E-Mail an <span id="inb4mail" title="Nicht kopierbar."></span>lists.kit.edu, um zur Mailingliste hinzugefügt zu werden.
 
 <!-- undo CSS shenanigans w/ JS shenanigans-->
 <script>
