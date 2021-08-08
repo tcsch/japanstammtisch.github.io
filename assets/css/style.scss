@@ -48,6 +48,9 @@ div.nextmeetup > a:first-child {
 
 span.details {
     color: #777;
+    & a {
+        color: #777;
+    }
 }
 
 div.infohead {
