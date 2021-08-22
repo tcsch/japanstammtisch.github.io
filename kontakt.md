@@ -2,6 +2,9 @@
 layout: textcontent
 ---
 
+交流会へのご参加は[開催予定](/treffen)ページの赤い「Teilnehmen / 参加」ボタンを使って参加表明していただけるとありがたいですが、事前連絡がなくても、飛び込みで参加していただけます。
+質問や提案などがあれば下記のLINEグループに入って下さい。
+
 Für Fragen, Anregungen, Austausch usw. haben wir eine LINE-Gruppe und alternativ noch eine Mailingliste.
 
 ### LINE-Gruppe

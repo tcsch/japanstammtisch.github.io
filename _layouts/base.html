@@ -6,6 +6,7 @@
 
 <!-- SEO -->
 <meta property="og:title" content="{{ site.title }}" />
+<meta property="og:image" content="https://japanstammtisch.github.io/assets/img/header.jpg" />
 <meta property="og:locale" content="de_DE" />
 <meta name="description" content="{{ site.description }}" />
 <meta property="og:description" content="{{ site.description }}" />
@@ -34,17 +35,18 @@
 <body>
 
 <header>
-<h1><ruby>カールスルーエ日独交流会<rt>J a p a n - S t a m m t i s c h &nbsp; K a r l s r u h e</rt></ruby></h1>
+<h1><ruby>カールスルーエ 日独交流会<rt>J a p a n - S t a m m t i s c h &nbsp; K a r l s r u h e</rt></ruby></h1>
 <img src="/assets/img/header.jpg">
 </header>
 
 <nav>
-{% assign nav_items = "treffen|kontakt|info" | split: "|" %}
+{% assign nav_items = "treffen/開催予定|kontakt/連絡先|info/よくあるご質問" | split: "|" %}
 {% for item in nav_items %}
-  {% if item == current_page %}
-    <a href="/{{ item }}" class="active">{{ item }}</a>
+  {% assign nav_items_parts = item | split: "/" %}
+  {% if nav_items_parts[0] == current_page %}
+    <a href="/{{ nav_items_parts[0] }}" class="active"><ruby>{{ nav_items_parts[0] }}<rt>{{ nav_items_parts[1] }}</rt></ruby></a>
   {% else %}
-    <a href="/{{ item }}">{{ item }}</a>
+    <a href="/{{ nav_items_parts[0] }}"><ruby>{{ nav_items_parts[0] }}<rt>{{ nav_items_parts[1] }}</rt><ruby></a>
   {% endif %}
 {% endfor %}
 </nav>
