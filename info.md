@@ -14,7 +14,7 @@ Beim Japan-Stammtisch Karlsruhe treffen sich Japaninteressierte ungefähr einmal
   気軽に仲間で集まって話したり交流を深めたりする会です。  
   [参考（theryugaku.jp）](https://theryugaku.jp/3111/) / [参考（young-germany.jp）](https://young-germany.jp/2015/12/stammtisch/)
 * **カールスルーエ 日独交流会とは？**  
-  日本に興味のある人やカールスルーエ在住の日本人が飲食店で集まって話したり情報交換したりする会です。（飲み会ではありません。）
+  日本に興味のある人やカールスルーエ在住の日本人が飲食店で集まって話したり情報交換したりする会です。
 * **交流会で何語が話されていますか？**  
   臨機応変です。日本語が話せる人もいますのでドイツ語も英語も話せない方でもご安心下さい。
 * **開始時間に遅れそう/最後までいられない予定ですが大丈夫ですか？**  
