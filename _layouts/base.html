@@ -35,7 +35,7 @@
 <body>
 
 <header>
-<h1><ruby>カールスルーエ 日独交流会<rt>J a p a n - S t a m m t i s c h &nbsp; K a r l s r u h e</rt></ruby></h1>
+<h1><a href="/"><ruby>カールスルーエ 日独交流会<rt>J a p a n - S t a m m t i s c h &nbsp; K a r l s r u h e</rt></ruby></a></h1>
 <img src="/assets/img/header.jpg">
 </header>
 
@@ -46,7 +46,7 @@
   {% if nav_items_parts[0] == current_page %}
     <a href="/{{ nav_items_parts[0] }}" class="active"><ruby>{{ nav_items_parts[0] }}<rt>{{ nav_items_parts[1] }}</rt></ruby></a>
   {% else %}
-    <a href="/{{ nav_items_parts[0] }}"><ruby>{{ nav_items_parts[0] }}<rt>{{ nav_items_parts[1] }}</rt><ruby></a>
+    <a href="/{{ nav_items_parts[0] }}"><ruby>{{ nav_items_parts[0] }}<rt>{{ nav_items_parts[1] }}</rt></ruby></a>
   {% endif %}
 {% endfor %}
 </nav>
