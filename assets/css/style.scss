@@ -40,6 +40,12 @@ ul {
 
 h1 {
     margin-bottom: 5px;
+    & > a,
+    & > a:hover,
+    & > a:focus {
+        text-decoration: none;
+        color: #111;
+    }
 }
 
 div.nextmeetup > a:first-child {
