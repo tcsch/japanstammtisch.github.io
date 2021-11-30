@@ -6,6 +6,9 @@ layout: textcontent
 
 <div class="nextmeetup">
 {% for post in site.posts limit: 1 %}
+{% if post.title == "" %}
+<h1>TBD / 未定</h1>
+{% else %}
 <a href="{{ post.url }}"><h1>{{ post.title }}</h1></a>
 <div class="infohead">
   <span><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date: "%Y-%m-%d" }}</span>
@@ -13,6 +16,7 @@ layout: textcontent
   <span><i class="fa fa-map-marker" aria-hidden="true"></i> {{ post.place }}</span>
   <span><i class="fa fa-users" aria-hidden="true"></i> {{ post.people }}</span>
 </div>
+{% endif %}
 <div class="postimg"><img src="/assets/img/{{ post.img }}"></div>
 {{ post.content }}
 {% endfor %}
