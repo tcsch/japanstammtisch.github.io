@@ -28,7 +28,7 @@ layout: textcontent
 
 <div>
 {% for post in site.posts offset: 1 %}
-<p><a href="{{ post.url }}">{{ post.title }}</a> <span class="details">( <i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date: "%Y-%m-%d" }} / <i class="fa fa-map-marker" aria-hidden="true"></i> {{ post.place }} / <i class="fa fa-users" aria-hidden="true"></i> {{ post.people }} )</span></p>
+<p><a href="{{ post.url }}">{{ post.title }}</a> <span class="details">&emsp;<i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date: "%Y-%m-%d" }}&emsp;<i class="fa fa-map-marker" aria-hidden="true"></i> {{ post.place }}<br><i class="fa fa-users" aria-hidden="true"></i> {{ post.people }} : {{ post.compo | join: "・" }}</span></p>
 
 {% endfor %}
 <div>
