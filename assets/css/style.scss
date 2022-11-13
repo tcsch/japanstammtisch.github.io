@@ -146,6 +146,30 @@ footer {
     }
 }
 
+/* Taken and modified from https://github.com/arbelh/HalfStyle/
+ *
+ * Use as
+ * <span class="comboflag" data-content="lefthalf">righthalf</span>
+*/
+.comboflag {
+    position: relative;
+    display: inline-block;
+    /* removing below appears to fix vertical positioning */
+    /* overflow: hidden; */
+    white-space: pre;
+}
+.comboflag:before {
+    display: block;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    width: 50%;
+    content: attr(data-content);
+    overflow: hidden;
+    pointer-events: none;
+}
+/* */
+
 @media only screen and (max-width: 599px) {
 header, nav, main, footer {
     width: 300px;
